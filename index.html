@@ -15,9 +15,10 @@
             transition: background 0.5s;
         }
 
-        header {
-            background: rgba(0, 0, 0, 0.5);
+        header, section, footer {
+            background: rgba(0, 0, 0, 0.25); /* 85% transparency */
             padding: 20px;
+            margin: 10px; /* Add margin for spacing between sections */
         }
 
         h1 {
@@ -42,11 +43,6 @@
             color: #ffc107;
         }
 
-        footer {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 10px;
-        }
-
         #colorButton {
             position: absolute;
             top: 10px;
@@ -65,9 +61,10 @@
         <p>New Delhi - 110036</p>
         <p>Email: navoditsharma1993@gmail.com | Cell: +91 8587862469</p>
         <p>Address: House no 613c, near Nehru enclave, Alipur, Delhi 36</p>
+        <div class="profile-image"></div>
     </header>
 
-    <div class="profile-image"></div>
+    
 
     <div class="container">
         <section>
